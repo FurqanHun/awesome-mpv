@@ -566,6 +566,7 @@ into popular sections, like Subtitles etc.
 - [auto-keep-gui-open](https://github.com/VideoPlayerCode/mpv-tools/) - Intelligently switches mpv's "keep-open" behavior based on whether you are running in video-mode or audio-only mode.
 - [celebi](https://github.com/po5/celebi) - An optimized script to restore properties from past sessions. Alternative to persist-properties and remember-props scripts.
 - [show-conf-osd](https://github.com/pierretom/show-conf-osd) - Display configuration files on the OSD.
+- [playlist-dir-conf](https://github.com/zzzealed/mpv-playlist-dir-conf) - Script that loads a mpv.conf from the directory of the playlist, extending `--use-filedir-conf` behavior to work with playlists.
 
 ## Library
 
