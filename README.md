@@ -3,6 +3,10 @@
 
 A curated list of [awesome](https://github.com/topics/awesome) mpv resources.
 
+> [!NOTE]
+> **Notice**: Frank Skare ([@stax76](https://github.com/stax76)), the original creator and maintainer of `awesome-mpv`, [passed away in early 2026](https://github.com/mpvnet-player/mpv.net/issues/767). This fork is maintained by [@FurqanHun](https://github.com/FurqanHun) to keep the resources updated, incorporate pending community contributions, and hopefully integrate the curated list into the official [mpv wiki](https://github.com/mpv-player/mpv/wiki) as discussed in [mpv discussion #16964](https://github.com/mpv-player/mpv/discussions/16964).
+
+
 # Table of contents
 
 - [Media Player](#media-player)
