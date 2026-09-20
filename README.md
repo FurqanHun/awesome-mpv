@@ -4,7 +4,7 @@
 A curated list of [awesome](https://github.com/topics/awesome) mpv resources.
 
 > [!NOTE]
-> **Notice**: Frank Skare ([@stax76](https://github.com/stax76)), the original creator and maintainer of `awesome-mpv`, [passed away in early 2026](https://github.com/mpvnet-player/mpv.net/issues/767). This fork is maintained by [@FurqanHun](https://github.com/FurqanHun) to keep the resources updated, incorporate pending community contributions, and hopefully integrate the curated list into the official [mpv wiki](https://github.com/mpv-player/mpv/wiki) as discussed in [mpv discussion #16964](https://github.com/mpv-player/mpv/discussions/16964).
+> Frank Skare ([@stax76](https://github.com/stax76)), the original creator and maintainer of `awesome-mpv`, [passed away in early 2026](https://github.com/mpvnet-player/mpv.net/issues/767). This fork is maintained by [@FurqanHun](https://github.com/FurqanHun) to keep the resources updated, incorporate pending community contributions, and hopefully integrate the curated list into the official [mpv wiki](https://github.com/mpv-player/mpv/wiki) as discussed in [mpv discussion #16964](https://github.com/mpv-player/mpv/discussions/16964).
 
 
 # Table of contents
@@ -64,6 +64,7 @@ A curated list of [awesome](https://github.com/topics/awesome) mpv resources.
 - [movie-monad](https://github.com/lettier/movie-monad) - Unmaintained, based on Haskell/GTK.
 - [OvoPlayer](https://github.com/varianus/ovoplayer) - Unmaintained, based on Pascal.
 - [mpc-qt](https://github.com/mpc-qt/mpc-qt) - Based on C++/QT.
+- [Omniphony](https://github.com/mgth/Omniphony) - Build with opt-in spatial audio decoder that renders object audio through the Omniphony spatial audio engine to any speaker layout or headphones.
 
 ## Windows
 
@@ -72,6 +73,7 @@ A curated list of [awesome](https://github.com/topics/awesome) mpv resources.
 - [MPV-EASY Player](https://github.com/422658476/MPV-EASY-Player)
 - [MMP: Minimalist Media Player](https://github.com/BazzaCuda/MinimalistMediaPlayerX) - Player/Manager/Editor for audio and video, and Viewer/Manager for images/thumbnails; maintained, based on 64-bit Delphi Pascal. Official [wiki](https://minimalistmediaplayer.com).
 - [Vayou](https://github.com/0hgawa/vayou-desktop) - Based on Rust/Tauri/Svelte. Multi-track audio and subtitles, OpenSubtitles search, on-the-fly subtitle translation.
+- [C-Play](https://github.com/c-toolbox/C-Play) - Cluster media player for video playback and presentations in immersive environments.
 
 ## MacOS
 
@@ -184,7 +186,8 @@ into popular sections, like Subtitles etc.
 - [history](https://gist.github.com/garoto/e0eb539b210ee077c980e01fb2daef4a) - Simple played media logger. Will generate a `mpvhistory.log` in the default mpv config folder (%APPDATA%/mpv/ or $HOME/.config/mpv/) in the format `[$DATE $TIME] $PATH ($?MEDIA-TITLE)`. Only tested on Windows.
 - [history](http://git.smrk.net/mpv-scripts/file/history.lua.html) - Autosave played media items in an SQLite database, restore last played position, select (with dmenu(1)) and play item from history.
 - [excessive-history](https://gist.github.com/Abject-Web/3f4f0e85dad73303b9dd1ef1f55c3147) - Excessive played media logger. Logs file name, time, and which parts were played. Will generate a `history.txt` in the mpv config folder. Only tested on Windows.
-- [history-bookmark](https://github.com/yuukidach/mpv-scripts) - Create a history file to store the episode we watched last time. And let us easily jump to the video we watched last time.
+- [history-bookmark yuukidach](https://github.com/yuukidach/mpv-scripts) - Create a history file to store the episode we watched last time. And let us easily jump to the video we watched last time.
+- [history-bookmark dyphire](https://github.com/dyphire/mpv-scripts/blob/main/history-bookmark.lua) - A forked version of [yuukidach's history-bookmark](https://github.com/yuukidach/mpv-scripts/blob/master/history_bookmark.lua).
 - [recent](https://github.com/hacel/recent) - Recently (history) played menu.
 - [recent-menu](https://github.com/natural-harmonia-gropius/recent-menu) - Recently (history) played menu integrated with uosc.
 - [memo](https://github.com/po5/memo) - A recent files/history menu for mpv with optional uosc integration.
@@ -193,6 +196,13 @@ into popular sections, like Subtitles etc.
 - [bookmarks](https://github.com/texiwustion/bookmarks) - Support add/delete/prev/next bookmarks, and persistence to sidecar JSON or config directory.
 - [SimpleBookmark-1.0](https://github.com/Eisa01/mpv-scripts#simplebookmark) - Bookmark with a [ctrl]+[b], then list and access your bookmarks with [b]. Assign your favorites to a keybind then access your favorites with that same keybind. Much more explained in the link above.
 - [misc](https://github.com/stax76/mpv-scripts) - When seeking display position and duration like so: 70:00 / 80:00
+- [jkl-shuttle](https://github.com/rubenxyz/mpv-jkl-shuttle) - JKL-style shuttle/jog controller for mpv, modeled after Avid Media Composer, DaVinci Resolve, and Adobe Premiere.
+- [frame-seek](https://github.com/AndreiVernon/mpv-frame-seek) - Seek to an exact timestamp or frame number. Can also do relative seeks.
+- [hold-to-reverse](https://github.com/iiiGerardoiii/mpv-hold-to-reverse) - Hold the `,` key to play the video in reverse, and release it to resume forward playback.
+- [hold-to-speedup](https://github.com/iiiGerardoiii/mpv-hold-to-speedup) - Hold left-click or spacebar to speed up the video, and release to resume normal playback speed.
+- [jumpskip](https://github.com/ElectricArdvark/jumpskip) - Detects and skips media segments (intros, recaps, outros/credits, and previews) using crowdsourced timestamp data from TheIntroDB, IntroDB, and SkipDB.
+- [track-picker](https://github.com/pakhromov/mpv-track-picker) - Interactively select audio and subtitle tracks via an OSD menu.
+- [fzf-playlist](https://github.com/wpdevelopment11/mpv-fzf-playlist) - Switch playlist entries using fzf in your terminal.
 - [misc](https://github.com/stax76/mpv-scripts) - Navigate in playlist to next/previous/first/last file.
 - [misc](https://github.com/stax76/mpv-scripts) - Jump to a random position in the playlist.
 - [misc](https://github.com/stax76/mpv-scripts) - Load or append files/URLs from clipboard.
@@ -237,6 +247,7 @@ into popular sections, like Subtitles etc.
 - [bookmarker](https://github.com/nimatrueway/mpv-bookmark-lua-script) - Bookmark your favorite time on media files
 - [List chapters](https://github.com/oltodosel/mpv-scripts#show_chapterslua) - Shows chapters and their time at the bottom left corner. [example](https://github.com/oltodosel/mpv-scripts/raw/master/show_chapters.jpeg)
 - [lats](https://github.com/AN3223/dotfiles/blob/master/.config/mpv/lats.lua) - The Low ATtention Span mpv script. Plays brief segments from random positions of one or more files, kinda like flipping through TV channels.
+- [random-seek](https://gist.github.com/makoConstruct/a824f3dab8c5657d6ab98cabacce8f6e) - Play a movie in random order by seeking between random positions.
 - [interactive-video](https://github.com/mosquito-byte/mpv-interactive-video) - Script for watching interactive videos (such as Netflix's *Black Mirror: Bandersnatch*).
 - [guess-media-title](https://github.com/zenwarr/mpv-config/blob/master/scripts/guess-media-title.lua) - Uses [guessit](https://github.com/guessit-io/guessit) to detect a media title by filename and set `force-media-title` variable. Useful for getting cleaner screenshot file names.
 - [fastforward](https://github.com/jgreco/mpv-scripts/blob/master/fastforward.lua) - Instead of skipping forward in media files, speed up the playback for a few seconds.  Playback speed decays back to 1x after a few seconds.  Tap rapidly or hold down to go faster.
@@ -308,13 +319,19 @@ into popular sections, like Subtitles etc.
 - [mfpbar-drag](https://github.com/layercak3/mfpbar-drag) - mfpbar with support for dragging the bar.
 - [osc-simple](https://github.com/maoiscat/mpv-osc-simple) - An OSC/UI replacement of white theme.
 - [osc-modern-f](https://github.com/FinnRaze/mpv-osc-modern-f) - OSC script forked from [mpv-osc-modern](https://github.com/maoiscat/mpv-osc-modern).
+- [hayase-osc](https://github.com/nekoxuee/hayase-osc) - A minimal OSC replacement for mpv that mimics the Hayase player interface.
+- [osc-adw](https://github.com/chuangzhu/mpv-osc-adw) - Adwaita-like touchscreen friendly OSC.
+- [flash-pause](https://github.com/pakhromov/mpv-flash-pause) - Animated pause indicator with rounded corners, transparency and a lot of customization options.
+- [seekpeek](https://github.com/soorajsprakash/mpv-seekpeek) - A YouTube-style thumbnail preview on seekbar hover for mpv.
+- [thumbyt](https://codeberg.org/NRK/mpv-toolbox/src/branch/master/thumbyt) - Uses `youtube-dl`/`yt-dlp` storyboards to provide hover previews without downloading full videos.
+- [mediainfo-overlay](https://github.com/pakhromov/mpv-mediainfo-overlay) - Displays a scrollable mediainfo overlay for the currently playing file.
 
 ## Input
 
 - [gestures](https://github.com/omeryagmurlu/mpv-gestures) - Touchscreen and mouse gestures.
 - [touch-gestures](https://github.com/christoph-heinrich/mpv-touch-gestures) - Gestures for play/pause, speed, volume, seeking and next/previous playlist-item.
 - [cheatsheet](https://github.com/ento/mpv-cheatsheet) - Looking up keyboard shortcuts (bindings).
-- [InputEvent](https://github.com/Natural-Harmonia-Gropius/InputEvent) - Enhanced input.conf with better, conflict-free, low-latency event mechanism.
+- [input-event](https://github.com/natural-harmonia-gropius/input-event) - Enhanced input.conf with better, conflict-free, low-latency event mechanism.
 - [zones](https://github.com/wiiaboo/mpv-scripts/blob/master/zones.lua) - Handles commands depending on where the mouse pointer is at, mostly for mouse wheel handling.
 - [russian-layout-bindings](https://github.com/zenwarr/mpv-config/blob/master/scripts/russian-layout-bindings.lua) - As mpv does not support shortcuts independent of the keyboard layout (https://github.com/mpv-player/mpv/issues/351), this script tries to workaround this issue for some limited cases with russian (йцукен) keyboard layout. Upon startup, it takes currently active bindings from `input-bindings` property and duplicates them for russian layout. You can adapt the script for your preferred layout, but it won't (of course) work for layouts sharing unicode characters with english.
 - [repl](https://github.com/rossy/mpv-repl) - A REPL for input commands that is displayed on the video window.
@@ -383,8 +400,15 @@ into popular sections, like Subtitles etc.
 - [srt-resegment](https://github.com/VimWei/mpv-config/blob/main/scripts/srt-resegment.lua) - Resegment srt by synchronize plain text with whisper's word-level timestamps JSON.
 - [subber](https://framagit.org/Midgard/mpv-subber) - Write subtitles in mpv.
 - [sub-fastwhisper](https://github.com/dyphire/mpv-sub-fastwhisper) - Generate SRT subtitles through voice transcription using faster-whisper.
-- [llm-subtrans](https://github.com/sorz/mpv-llm-subtrans/) - Extract & translate subtitles with OpenAI API. Streaming & contextual.
+- [llm-subtrans sorz](https://github.com/sorz/mpv-llm-subtrans/) - Extract & translate subtitles with OpenAI API. Streaming & contextual.
+- [llm-subtrans escapezn](https://github.com/escapezn/mpv-llm-subtrans) - Fork of llm-subtrans fixing initialization and improving translation flexibility.
 - [subai](https://github.com/zenwarr/mpv-config?tab=readme-ov-file#subai) - Translate and explain the currently displayed subtitle line into your preferred language. Helps learning a foreign language.
+- [animeSubs_dl](https://github.com/TnTora/animeSubs_dl) - Download Japanese subtitles for anime from jimaku or kitsunekko directly from mpv.
+- [jamak](https://github.com/arrufat/mpv-jamak) - Interactive subtitle downloader backed by OpenSubtitles.com. Fuzzy-filterable picker in the console UI, moviehash matching so subs for your exact file rank first, and optional quota-aware auto mode. In plain Lua, `curl` is the only dependency.
+- [win11-oneocr](https://github.com/xyfish/mpv-win11-oneocr) - Uses Windows 11 Snipping Tool OCR via [b1tg/win11-oneocr](https://github.com/b1tg/win11-oneocr). (Windows)
+- [view_sub_texts](https://github.com/ewt45/mpv-scripts/tree/main/view_sub_texts) - Subtitle content text browser based on uosc. Search, seek, copy, save.
+- [track-selector](https://github.com/dfts8ef/mpv-track-selector) - Auto select audio, subtitle, secondary-subtitle tracks based on defined profiles.
+- [uosc_danmaku](https://github.com/Tony15246/uosc_danmaku) - Loads DanDanPlay danmaku in MPV player, based on the uosc UI framework and DanDanPlay API.
 
 ## Learning
 
@@ -432,6 +456,9 @@ into popular sections, like Subtitles etc.
 - [afilter](https://github.com/he2a/mpv-scripts) - Script for easy access to certain audio compressors and HRTF sofalizer in mpv with option to whitelist filters based on type of media. 
 - [ff-silence](https://github.com/mesvam/ff-silence) - Fast forward through silences and quiet parts of audio, useful on videos where the speaker uses many long pauses.
 - [aspeed.lua](https://github.com/TinosNitso/mpv-scripts/blob/main/aspeed.lua) - Multi-stereo speed randomization & tri-color clocks. Applies arbitrary speed formula & has chipmunk mode for left-channel. Also has double-mute insta-toggle. Primary channel may be left or right. A filterchain applies to all speakers - each is its own mpv. Has many script-messages.  For mpv v0.34→v0.38, SMPlayer, Windows, Linux, MacOS, Android, YouTube, mp4, mp3, jpg, etc. But no randomization for Android. ([Example](https://raw.githubusercontent.com/TinosNitso/mpv-scripts/main/SCREENSHOT.webp) clock).
+- [anequalizer](https://github.com/YukiNeeSan/Anequalizer.lua) - IIR Filter FFmpeg Anequalizer with 60-band ISO 1/2 Octave, reconfigured from VLC audio preset + custom for manual adjustment.
+- [FIREQUALIZER](https://github.com/YukiNeeSan/Firequalizer.lua) - FIR Filter FFmpeg Firequalizer with 20-Band and 60-band, reconfigured from VLC audio preset + custom for manual adjustment.
+- [SOX_RESAMPLE](https://github.com/YukiNeeSan/sox_resample) - Automatically upsamples audio using FFmpeg SoXr & Custom DSP Chain.
 
 ## Streaming
 
@@ -471,6 +498,9 @@ into popular sections, like Subtitles etc.
 - [last.fm scrobbler](https://github.com/MugoSquero/mpv_scrobbler) - Sends the information about playing tracks to [last.fm](http://last.fm/), see http://www.last.fm/help/faq?category=99 for more info.
 - [http-ytproxy](https://gist.github.com/ftk/253347b2c9a53bbd6087f086970106b6) - Simple MitM http proxy to modify Range http headers. Can be used to speed up youtube videos.
 - [torrserver-browser](https://codeberg.org/m45k/torrserver-browser) - This script lets you search and play torrents from Rutor via TorrServer directly in mpv, without using a browser or external applications. The search is bound to the f key inside mpv and uses a user input module to get text from the keyboard. The M key opens the main script UI, showing everything that has already been added to your TorrServer, with support for launching torrent files and magnet links without any additional Lua scripts.
+- [epgtv](https://github.com/blogdron/EPGTV) - Simple EPG information for IPTV M3U playlist in mpv.
+- [uosc_torrserver_menu](https://github.com/VimiummuimiV/uosc_torrserver_menu) - A uosc menu for mpv that searches, adds, browses, and streams torrents through a local TorrServer instance.
+- [SyncReaction](https://github.com/TnTora/SyncReaction) - Sync mpv playback with YouTube or other html5 players.
 
 
 ## Video
@@ -554,6 +584,10 @@ into popular sections, like Subtitles etc.
 - [excerpt](https://gitlab.com/lvml/mpv-plugin-excerpt) - Allows you to quickly create excerpts from media files, you just have to set begin and end markers.
 - [clipper](https://github.com/lunagus/mpv-clipper) - Quickly trim videos using ffmpeg within mpv.
 - [tachytome](https://github.com/nnra6864/tachytome) - Keyboard Driven, AV1/H265/Lossless, MPV Video Cutter.
+- [video_cutter](https://github.com/ewt45/mpv-scripts/tree/main/video_cutter) - Clip videos. Supports scaling, cropping. Export mkv/gif/avif files. UI is based on uosc.
+- [gif-generator DanSM-5](https://github.com/DanSM-5/mpv-gif-generator) - Create gifs from playing video (local file or loaded by [yt-dlp](https://github.com/yt-dlp/yt-dlp)).
+- [paronama-generator](https://github.com/WatanabeChika/mpv-video-paronama-generator) - Stitch seamless video panorama screenshots from user-defined start and end timestamps.
+- [contact-sheet-LF](https://github.com/laetus5319/mpv-contact-sheet-LF) - A contact sheet screenshot thumbnail generator script for mpv.
 
 ## Social
 
@@ -562,6 +596,7 @@ into popular sections, like Subtitles etc.
 - [discordRPC](https://github.com/noaione/mpv-discordRPC) - Discord RPC integration for mpv using lua-discordRPC as base.
 - [discord](https://github.com/tnychn/mpv-discord) - A cross-platform Discord Rich Presence integration for mpv with no external dependencies. Consists of a Go binary for updating the presence and a Lua script for launching it.
 - [mpv-rpc](https://github.com/ryze312/mpv-rpc) - Discord Rich Presence integration. Also displays cover art from MusicBrainz archive.
+- [mprisence](https://github.com/lazykern/mprisence) - Discord Rich Presence for MPRIS media players on Linux, including mpv.
 - [irc](https://github.com/po5/mpv_irc) - Displays lines from an irc channel.
 - [LoadDanmaku](https://github.com/huisedenanhai/LoadDanmaku) - Load local damaku files.
 - [youtube-chat](https://github.com/BanchouBoo/mpv-youtube-chat) - Overlays YouTube chat on top of a video using yt-dlp.
@@ -578,6 +613,8 @@ into popular sections, like Subtitles etc.
 - [celebi](https://github.com/po5/celebi) - An optimized script to restore properties from past sessions. Alternative to persist-properties and remember-props scripts.
 - [show-conf-osd](https://github.com/pierretom/show-conf-osd) - Display configuration files on the OSD.
 - [playlist-dir-conf](https://github.com/zzzealed/mpv-playlist-dir-conf) - Script that loads a mpv.conf from the directory of the playlist, extending `--use-filedir-conf` behavior to work with playlists.
+- [autoload-archives](https://github.com/AndreiVernon/mpv-autoload-archives) - When playing a direct file from within an archive, transparently fills the playlist.
+- [content-throttler](https://github.com/masterofobzene/mpv-content-throttler-script) - Even playback of uneven media folders by using timeouts on folders played.
 
 ## Library
 
@@ -625,9 +662,9 @@ into popular sections, like Subtitles etc.
 - [txt](https://github.com/jgreco/mpv-txt) - Play text files using text-to-speech (TTS). (Works on Linux, MacOS).
 - [pdf](https://github.com/jgreco/mpv-pdf) - View PDFs in mpv using ImageMagick. (for Linux, MacOS)
 - [manga-reader](https://github.com/Dudemanguy/mpv-manga-reader) - Script for using mpv as a manga reader.
-- [redshift_toggle](https://git.sr.ht/~q3cpma/dotfiles/tree/master/.config/mpv/scripts/redshift_toggle.lua) - Toggle redshift when loading a video file and when reaching the end of said file. Now also handles pause.
-- [toggle-redshift-on-play](https://gist.github.com/CreamyCookie/d036b66af4e17ea527d08e303eb96145) - Toggle redshift when viewing videos with mpv.
-- [toggle-redshift-on-play kill-restart-version](https://gist.github.com/CreamyCookie/079570ad0dd27d322421f6637c828ab8) - Toggle redshift when viewing videos with mpv.
+- [redshift_toggle](https://git.sr.ht/~q3cpma/dotfiles/tree/master/item/home/.config/mpv/scripts/redshift_toggle.lua) - Toggle redshift when loading a video file and when reaching the end of said file. Now also handles pause.
+- [toggle-redshift-on-play](https://gist.github.com/krisu5/a73483de851dfdb240e0c244ef1edb97) - Toggle redshift when viewing videos with mpv.
+- [toggle-redshift-on-play kill-restart-version](https://gist.github.com/krisu5/2beeef55efacb8d35c238b10920ced1a) - Toggle redshift when viewing videos with mpv.
 - [inhibit_gnome](https://github.com/Guldoman/mpv_inhibit_gnome) - Prevent screen blanking on GNOME while content is playing
 - [mpegts-truncate](https://github.com/hoehermann/mpv-mpegts-truncate) - Removes beginning of MPEG TS file up to current position without re-writing the whole file.
 - [minesweeper](https://github.com/wiiaboo/mpv-scripts/blob/master/mines.lua) - Minesweeper game.
@@ -638,6 +675,12 @@ into popular sections, like Subtitles etc.
 - [notify](https://github.com/kauron/mpv-notify) - Now-playing-desktop notifications.
 - [taskbar-buttons](https://github.com/qwerty12/mpv-taskbar-buttons) - (Windows) Adds thumbbar buttons.
 - [xscreensaver](https://gist.github.com/elenril/f8ff9475a7882b7a16cdd723c7dce150) - (Linux) Disables XScreensaver while video playback is active, a replacement for heartbeat-cmd.
+- [PiP-Lite](https://github.com/Samillion/ModernZ/tree/main/extras/pip-lite) - Add a PiP (Picture-in-Picture) mode when pin (ontop) is enabled by resizing window and moving it to bottom right.
+- [open-file](https://github.com/Samillion/ModernZ/tree/main/extras/open-file) - Open files, add subtitles, or add audio tracks directly from mpv via the Windows file dialog with a keybind or context-menu. (Windows)
+- [mpv-smtc](https://github.com/HaHaWTH/mpv-smtc) - SMTC (System Media Transport Controls) integration for mpv. (Windows)
+- [get_anime_info](https://github.com/TnTora/get_anime_info) - Retrieve anime info from Anilist API and display them directly in mpv.
+- [gopro-timecode](https://github.com/michael-quinlan/mpv-gopro-timecode) - Displays the actual embedded GoPro timecode (tmcd track) as an on-screen overlay.
+- [mpv-agent](https://github.com/Jonny-GM/mpv-agent) - Per-session AI agent (with local/self-hosted model support) for controlling mpv with native IPC control.
 - [xfce-genmonify](https://github.com/budRich/mpv-xfce-genmonify) - Update a [xfce4-panel](https://docs.xfce.org/xfce/xfce4-panel/start) [genmon](https://docs.xfce.org/panel-plugins/xfce4-genmon-plugin/start) plugin that is set up with [genmonify](https://github.com/budlabs/genmonify) to display the currently playing media file and elpapsed or remaining time in xfce4-panel.
 - [force-window-profile](https://github.com/AN3223/dotfiles/blob/master/.config/mpv/scripts/force-window-profile.lua) - Applies the force-window profile when force-window is set (i.e. when starting mpv from the .desktop file)
 - [exit-fullscreen](https://github.com/zc62/mpv-scripts/blob/master/exit-fullscreen.lua) - If you use `--keep-open=yes`, this script exits fullscreen mode when the playback reaches the end of file/playlist.
@@ -671,6 +714,7 @@ into popular sections, like Subtitles etc.
 # Media Center
 
 - [Stremio](https://github.com/Stremio) - Cross-platform, based on C++/QT.
+- [Stremio Kai](https://github.com/allecsc/Stremio-Kai) - Stremio build optimized for anime and lower-end specs, based on stremio-community-v5.
 
 # Streaming Tools
 
@@ -689,7 +733,7 @@ into popular sections, like Subtitles etc.
 
 # User Configuration
 
-- [lazy](https://github.com/hooke007/MPV_lazy)
+- [PlayKit](https://github.com/hooke007/mpv_PlayKit)
 - [Glow](https://glowmpv.github.io)
 - [dyphire](https://github.com/dyphire/mpv-config)
 - [noelsimbolon](https://github.com/noelsimbolon/mpv-config)
@@ -778,6 +822,7 @@ into popular sections, like Subtitles etc.
 - [mpv-mpris](https://github.com/hoyon/mpv-mpris) - On Linux allows controlling mpv using standard media keys.
 - [lua-mpris](https://github.com/dodo/lua-mpris) - Adds mpris support to mpv.
 - [simple-mpv-webui](https://github.com/open-dynaMIX/simple-mpv-webui) Based on Python/Lua/JavaScript/Web.
+- [remote_mpv](https://github.com/wpdevelopment11/remote_mpv) - Control mpv using a web browser, alternative to [simple-mpv-webui](https://github.com/open-dynaMIX/simple-mpv-webui) written in Python.
 - [KDE Connect](https://kdeconnect.kde.org) - Enabling communication between all your devices.
   - [GSConnect](https://extensions.gnome.org/extension/1319/gsconnect/) - Implementation of KDE Connect for GNOME.
 - [mpv-remote-app](https://github.com/mcastorina/mpv-remote-app) - For Android, based on Java/Python.
@@ -818,12 +863,15 @@ into popular sections, like Subtitles etc.
 - [vidify](https://vidify.org) - Cross-platform app that detects playing songs on your device and plays their music videos anywhere, based on Python.
 - [Karaoke Mugen](https://karaokes.moe/de/) - Cross-platform karaoke management app, based on JavaScript/node.js/Web.
 - [gnome-shell-extension-caffeine](https://github.com/eonpatapon/gnome-shell-extension-caffeine) - Prevent the display from turning off (Gnome doesn't support the idle-inhibit protocol on Wayland) and disable the 'night light' when a mpv window is in focus.
+- [mpx](https://github.com/yuukidach/mpx) - A fisher-style plugin manager for mpv. Installs plugins directly from GitHub with automatic file-type detection and lockfiles for reproducible installs.
+- [PyRadio](https://github.com/coderholic/pyradio) - Terminal internet radio player based on Python/curses with mpv backend.
+- [Cinema](https://github.com/marm00/cinema) - Customizable multiviewer for Twitch streams and other media.
 
 
-Other projects from me
-----------------------
+Other projects from stax76
+--------------------------
 
-A list of my other projects can be found here:
+A list of stax76's other projects can be found here:
 
 https://stax76.github.io/software-list
 
