@@ -416,6 +416,7 @@ into popular sections, like Subtitles etc.
 - [pitchcontrol](https://github.com/FichteFoll/mpv-scripts/blob/master/pitchcontrol.lua) - Adjusts audio pitch in half-tone steps.
 - [volnorm](https://gitlab.com/derobert/mpv-volnorm) - Client-server setup to provide EBU R.128 volume leveling to MPV, even if files stored on a server and played on multiple machines. (Works on Linux, probably all Unix-like; server in Perl).
 - [firequalizer15](https://github.com/mfcc64/mpv-scripts/blob/master/firequalizer15.lua) - Linear phase 15-bands equalizer.
+- [equalizer-gui](https://github.com/akFace/equalizer-gui) - Interactive 10-band audio equalizer GUI with persistence.
 - [drcbox](https://gist.github.com/richardpl/0c8011dc23d7ac7b7831b2e6d680114f) - Dynamic Audio Normalizer filter with visual feedback.
 - [dbvol](https://gist.github.com/Artefact2/0a9c87d6d0f0ef6a565e44d830943fff) - Replaces the default volume controls with a decibel (dB) scale instead of arbitrary percentages.
 - [cycle-audio-device](https://gist.github.com/bitingsock/ad58ee5da560ecb922fa4a867ac0ecfd) - Cycle through available audio devices with key binds.
