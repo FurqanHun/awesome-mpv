@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Ask a question or share an idea
+    url: https://github.com/FurqanHun/awesome-mpv/discussions
+    about: Please use GitHub Discussions for general conversations instead of opening an issue.
