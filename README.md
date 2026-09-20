@@ -661,6 +661,7 @@ into popular sections, like Subtitles etc.
 - [Harmonoid](https://harmonoid.com) - Cross-platform, based on Dart/Flutter.
 - [Olivia](https://github.com/keshavbhatt/olivia) - Linux cloud music player, based on C++/QT/Web.
 - [vmn](https://github.com/Dudemanguy/vmn) - Cross-platform CLI music player, based on C/TUI.
+- [mpv-music](https://github.com/FurqanHun/mpv-music) - Cross-platform CLI/TUI music player and library browser, based on Rust.
 
 # Media Center
 
