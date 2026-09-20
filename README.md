@@ -87,6 +87,7 @@ A curated list of [awesome](https://github.com/topics/awesome) mpv resources.
 
 - [android](https://github.com/mpv-android/mpv-android) - Player for Android, based on Kotlin.
 - [Kt](https://github.com/abdallahmehiz/mpvKt) - Player for Android, based on Kotlin.
+- [mpvEx](https://github.com/marlboro-advance/mpvEx) - Player for Android, based on Kotlin.
 
 # Installation/Download
 
