@@ -59,12 +59,12 @@ A curated list of [awesome](https://github.com/topics/awesome) mpv resources.
 - [Baka-MPlayer](https://github.com/u8sand/Baka-MPlayer) - Unmaintained, based on C++/QT.
 - [movie-monad](https://github.com/lettier/movie-monad) - Unmaintained, based on Haskell/GTK.
 - [OvoPlayer](https://github.com/varianus/ovoplayer) - Unmaintained, based on Pascal.
+- [mpc-qt](https://github.com/mpc-qt/mpc-qt) - Based on C++/QT.
 
 ## Windows
 
 - [mpv.net](https://github.com/mpvnet-player/mpv.net) - Based on C#/WinForms/WPF.
 - [mpv-hero](https://github.com/stax76/mpv-hero) - mpv extended with GUI scripts and GUI tools.
-- [mpc-qt](https://github.com/mpc-qt/mpc-qt) - Based on C++/QT.
 - [MPV-EASY Player](https://github.com/422658476/MPV-EASY-Player)
 - [MMP: Minimalist Media Player](https://github.com/BazzaCuda/MinimalistMediaPlayerX) - Player/Manager/Editor for audio and video, and Viewer/Manager for images/thumbnails; maintained, based on 64-bit Delphi Pascal. Official [wiki](https://minimalistmediaplayer.com).
 - [Vayou](https://github.com/0hgawa/vayou-desktop) - Based on Rust/Tauri/Svelte. Multi-track audio and subtitles, OpenSubtitles search, on-the-fly subtitle translation.
