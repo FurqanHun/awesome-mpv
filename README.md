@@ -57,14 +57,14 @@ A curated list of [awesome](https://github.com/topics/awesome) mpv resources.
 ## Cross-platform
 
 - [mpv](https://mpv.io) - Based on C/Lua.
-- [MoonPlayer](https://github.com/coslyk/moonplayer) - Based on C++/QT/QML.
-- [SMPlayer](https://github.com/smplayer-dev/smplayer) - Based on C++/QT.
-- [ImPlay](https://github.com/tsl0922/ImPlay) - Based on C++/imgui.
-- [Baka-MPlayer](https://github.com/u8sand/Baka-MPlayer) - Unmaintained, based on C++/QT.
-- [movie-monad](https://github.com/lettier/movie-monad) - Unmaintained, based on Haskell/GTK.
-- [OvoPlayer](https://github.com/varianus/ovoplayer) - Unmaintained, based on Pascal.
-- [mpc-qt](https://github.com/mpc-qt/mpc-qt) - Based on C++/QT.
+- [SMPlayer](https://github.com/smplayer-dev/smplayer) - Based on C++/Qt.
+- [ImPlay](https://github.com/tsl0922/ImPlay) - Stale, based on C++/ImGui.
+- [OvoPlayer](https://github.com/varianus/ovoplayer) - Music manager/player based on Pascal.
+- [mpc-qt](https://github.com/mpc-qt/mpc-qt) - Based on C++/Qt.
 - [Omniphony](https://github.com/mgth/Omniphony) - Build with opt-in spatial audio decoder that renders object audio through the Omniphony spatial audio engine to any speaker layout or headphones.
+- [MoonPlayer](https://github.com/coslyk/moonplayer) - Unmaintained, based on C++/Qt/QML.
+- [Baka-MPlayer](https://github.com/u8sand/Baka-MPlayer) - Unmaintained, based on C++/Qt.
+- [Movie Monad](https://github.com/lettier/movie-monad) - Unmaintained, based on Haskell/GTK.
 
 ## Windows
 
