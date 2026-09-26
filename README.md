@@ -67,12 +67,11 @@ A curated list of [awesome](https://github.com/topics/awesome) mpv resources.
 
 ## Windows
 
-- [mpv.net](https://github.com/mpvnet-player/mpv.net) - Based on C#/WinForms/WPF.
-- [mpv-hero](https://github.com/stax76/mpv-hero) - mpv extended with GUI scripts and GUI tools.
-- [MPV-EASY Player](https://github.com/422658476/MPV-EASY-Player)
+- [MPV-EASY Player](https://github.com/422658476/MPV-EASY-Player) - mpv extended with custom GUI, scripts, and configuration.
 - [MMP: Minimalist Media Player](https://github.com/BazzaCuda/MinimalistMediaPlayerX) - Player/Manager/Editor for audio and video, and Viewer/Manager for images/thumbnails; maintained, based on 64-bit Delphi Pascal. Official [wiki](https://minimalistmediaplayer.com).
-- [Vayou](https://github.com/0hgawa/vayou-desktop) - Based on Rust/Tauri/Svelte. Multi-track audio and subtitles, OpenSubtitles search, on-the-fly subtitle translation.
 - [C-Play](https://github.com/c-toolbox/C-Play) - Cluster media player for video playback and presentations in immersive environments.
+- [mpv-hero](https://github.com/stax76/mpv-hero) - Stale, mpv extended with GUI scripts and GUI tools.
+- [mpv.net](https://github.com/mpvnet-player/mpv.net) - Unmaintained, based on C#/WinForms/WPF.
 
 ## MacOS
 
@@ -81,18 +80,19 @@ A curated list of [awesome](https://github.com/topics/awesome) mpv resources.
 ## Linux
 
 - [Celluloid](https://celluloid-player.github.io) - Based on C/GTK.
-- [Kawaii Player](https://github.com/kanishka-linux/kawaii-player) - Player/Library/Server, based on Python/QT.
-- [xt7-player-mpv](https://github.com/kokoko3k/xt7-player-mpv) - Based on Gambas/QT.
-- [mpvz](https://github.com/Zren/mpvz) - Based on C++/QT/QML.
-- [Haruna](https://invent.kde.org/multimedia/haruna) - Based on C++/QT/QML.
-- [Deepin Movie](https://github.com/linuxdeepin/deepin-movie-reborn) - Unmaintained, based on C++/QT.
-- [bomi player](https://bomi-player.github.io) - Unmaintained, based on C++/QT.
+- [Kawaii-Player](https://github.com/kanishka-linux/kawaii-player) - Player/Library/Server, based on Python/Qt.
+- [xt7-player-mpv](https://github.com/kokoko3k/xt7-player-mpv) - Based on Gambas/Qt.
+- [Haruna](https://invent.kde.org/multimedia/haruna) - Based on C++/Qt/QML.
+- [Deepin Movie](https://github.com/linuxdeepin/deepin-movie-reborn) - Based on C++/Qt.
+- [mpvz](https://github.com/Zren/mpvz) - Unmaintained, based on C++/Qt/QML.
+- [bomi](https://bomi-player.github.io) - Archived, based on C++/Qt.
 
 ## Android
 
 - [android](https://github.com/mpv-android/mpv-android) - Player for Android, based on Kotlin.
-- [Kt](https://github.com/abdallahmehiz/mpvKt) - Player for Android, based on Kotlin.
-- [mpvEx](https://github.com/marlboro-advance/mpvEx) - Player for Android, based on Kotlin.
+- [Ex](https://github.com/marlboro-advance/mpvEx) - Player for Android, based on Kotlin/Jetpack Compose, fork of mpvKt that also incorporates changes from mpv-android.
+- [infinity](https://github.com/ZHINFINITY/Mpv-infinity) - Player for Android, based on Kotlin/Jetpack Compose.
+- [Kt](https://github.com/abdallahmehiz/mpvKt) - Archived, player for Android, based on Kotlin/Jetpack Compose, fork of mpv-android.
 
 # Installation/Download
 
