@@ -56,41 +56,41 @@ A curated list of [awesome](https://github.com/topics/awesome) mpv resources.
 
 ## Cross-platform
 
-- [mpv](https://mpv.io) - Based on C/Lua.
-- [SMPlayer](https://github.com/smplayer-dev/smplayer) - Based on C++/Qt.
-- [ImPlay](https://github.com/tsl0922/ImPlay) - Stale, based on C++/ImGui.
-- [mpc-qt](https://github.com/mpc-qt/mpc-qt) - Based on C++/Qt.
-- [Omniphony](https://github.com/mgth/Omniphony) - Build with opt-in spatial audio decoder that renders object audio through the Omniphony spatial audio engine to any speaker layout or headphones.
-- [MoonPlayer](https://github.com/coslyk/moonplayer) - Unmaintained, based on C++/Qt/QML.
-- [Baka-MPlayer](https://github.com/u8sand/Baka-MPlayer) - Unmaintained, based on C++/Qt.
-- [Movie Monad](https://github.com/lettier/movie-monad) - Unmaintained, based on Haskell/GTK.
+- [mpv](https://github.com/mpv-player/mpv) ([website](https://mpv.io)) - Based on C/Lua.
+- [SMPlayer](https://github.com/smplayer-dev/smplayer) ([website](https://www.smplayer.info/)) - Based on C++/Qt.
+- [ImPlay](https://github.com/tsl0922/ImPlay) ([website](https://tsl0922.github.io/ImPlay/)) - Stale, based on C++/ImGui.
+- [mpc-qt](https://github.com/mpc-qt/mpc-qt) ([website](https://mpc-qt.github.io/)) - Based on C++/Qt.
+- [Omniphony](https://github.com/mgth/Omniphony) ([website](https://omniphony.mgth.fr/)) - Build with opt-in spatial audio decoder that renders object audio through the Omniphony spatial audio engine to any speaker layout or headphones.
+- [MoonPlayer](https://github.com/coslyk/moonplayer) ([website](https://coslyk.github.io/moonplayer.html)) - Unmaintained, based on C++/Qt/QML.
+- [Baka-MPlayer](https://github.com/u8sand/Baka-MPlayer) ([website](https://u8sand.github.io/Baka-MPlayer/)) - Unmaintained, based on C++/Qt.
+- [Movie Monad](https://github.com/lettier/movie-monad) ([website](https://lettier.github.io/movie-monad/)) - Unmaintained, based on Haskell/GTK.
 
 ## Windows
 
-- [MPV-EASY Player](https://github.com/422658476/MPV-EASY-Player) - mpv extended with custom GUI, scripts, and configuration.
-- [MMP: Minimalist Media Player](https://github.com/BazzaCuda/MinimalistMediaPlayerX) - Player/Manager/Editor for audio and video, and Viewer/Manager for images/thumbnails; maintained, based on 64-bit Delphi Pascal. Official [wiki](https://minimalistmediaplayer.com).
-- [C-Play](https://github.com/c-toolbox/C-Play) - Cluster media player for video playback and presentations in immersive environments.
+- [MPV-EASY Player](https://github.com/422658476/MPV-EASY-Player) ([website](http://www.rjno1.com/mpv-easy-player/)) - mpv extended with custom GUI, scripts, and configuration.
+- [MMP: Minimalist Media Player](https://github.com/BazzaCuda/MinimalistMediaPlayerX) ([website](https://minimalistmediaplayer.com)) - Player/Manager/Editor for audio and video, and Viewer/Manager for images/thumbnails; maintained, based on 64-bit Delphi Pascal.
+- [C-Play](https://github.com/c-toolbox/C-Play) ([website](https://c-toolbox.github.io/C-Play/)) - Cluster media player for video playback and presentations in immersive environments.
 - [mpv-hero](https://github.com/stax76/mpv-hero) - Stale, mpv extended with GUI scripts and GUI tools.
 - [mpv.net](https://github.com/mpvnet-player/mpv.net) - Unmaintained, based on C#/WinForms/WPF.
 
 ## MacOS
 
-- [IINA](https://iina.io) - Based on Swift/Cocoa.
+- [IINA](https://github.com/iina/iina) ([website](https://iina.io/)) - Based on Swift/Cocoa.
 
 ## Linux
 
-- [Celluloid](https://celluloid-player.github.io) - Based on C/GTK.
+- [Celluloid](https://github.com/celluloid-player/celluloid) ([website](https://celluloid-player.github.io)) - Based on C/GTK.
 - [Kawaii-Player](https://github.com/kanishka-linux/kawaii-player) - Player/Library/Server, based on Python/Qt.
 - [xt7-player-mpv](https://github.com/kokoko3k/xt7-player-mpv) - Based on Gambas/Qt.
-- [Haruna](https://invent.kde.org/multimedia/haruna) - Based on C++/Qt/QML.
+- [Haruna](https://invent.kde.org/multimedia/haruna) ([website](https://haruna.kde.org/)) - Based on C++/Qt/QML.
 - [Deepin Movie](https://github.com/linuxdeepin/deepin-movie-reborn) - Based on C++/Qt.
 - [mpvz](https://github.com/Zren/mpvz) - Unmaintained, based on C++/Qt/QML.
-- [bomi](https://bomi-player.github.io) - Archived, based on C++/Qt.
+- [bomi](https://github.com/bylee20/bomi) ([website](https://bomi-player.github.io)) - Archived, based on C++/Qt.
 
 ## Android
 
-- [android](https://github.com/mpv-android/mpv-android) - Player for Android, based on Kotlin.
-- [Ex](https://github.com/marlboro-advance/mpvEx) - Player for Android, based on Kotlin/Jetpack Compose, fork of mpvKt that also incorporates changes from mpv-android.
+- [android](https://github.com/mpv-android/mpv-android) ([website](http://mpv-android.github.io/mpv-android/)) - Player for Android, based on Kotlin.
+- [Ex](https://github.com/marlboro-advance/mpvEx) ([website](https://mpvex.vercel.app/)) - Player for Android, based on Kotlin/Jetpack Compose, fork of mpvKt that also incorporates changes from mpv-android.
 - [infinity](https://github.com/ZHINFINITY/Mpv-infinity) - Player for Android, based on Kotlin/Jetpack Compose.
 - [Kt](https://github.com/abdallahmehiz/mpvKt) - Archived, player for Android, based on Kotlin/Jetpack Compose, fork of mpv-android.
 
@@ -705,7 +705,7 @@ into popular sections, like Subtitles etc.
 
 # Music Player
 
-- [OvoPlayer](https://github.com/varianus/ovoplayer) - Cross-platform, Music manager/player, based on Pascal.
+- [OvoPlayer](https://github.com/varianus/ovoplayer) ([website](https://ovoplayer.altervista.org/)) - Cross-platform, Music manager/player, based on Pascal.
 - [Harmonoid](https://harmonoid.com) - Cross-platform, based on Dart/Flutter.
 - [Olivia](https://github.com/keshavbhatt/olivia) - Linux cloud music player, based on C++/QT/Web.
 - [vmn](https://github.com/Dudemanguy/vmn) - Cross-platform CLI music player, based on C/TUI.
