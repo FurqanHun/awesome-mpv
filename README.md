@@ -130,25 +130,22 @@ into popular sections, like Subtitles etc.
 ## Menu
 
 - [select](https://github.com/mpv-player/mpv/blob/master/player/lua/select.lua) - Menu script built into mpv.
-- [command_palette](https://github.com/stax76/mpv-scripts) - Searchable menu for
-  bindings, playlist, chapters, profiles, all tracks, audio tracks, video tracks,
-  subtitle tracks, secondary subtitle tracks, subtitle lines, commands, properties,
-  options, audio devices, Blu-ray titles, stream quality, aspect ratio, recent files.
 - [uosc](https://github.com/tomasklaen/uosc) - Popular OSC with menu.
 - [M-x](https://github.com/Seme4eg/mpv-scripts/tree/master#m-x) - Searchable and configurable menu to quickly find key bindings and commands.
-- [search-page](https://github.com/CogentRedTester/mpv-search-page) - Searchable and configurable menu to quickly find key bindings, commands, options and properties.
-- [search-menu](https://github.com/stax76/mpv-scripts) - Searchable and configurable menu to quickly find key bindings, commands, properties, audio/subtitle tracks and playlist entries.
 - [mdmenu](https://codeberg.org/NRK/mpv-toolbox/src/branch/master/mdmenu) - Use dmenu (Linux launcher) for selecting audio/subtitle/chapters etc.
-- [Tcl/Tk context-menu](https://gist.github.com/avih/bee746200b5712220b8bd2f230e535de) - Configurable context-menu based on Tcl/Tk (cross-platform).
-- [contextmenu](https://gitlab.com/carmanaught/mpvcontextmenu) - Comprehensive context-menu forked from [Tcl/Tk context menu](https://gist.github.com/avih/bee746200b5712220b8bd2f230e535de).
-- [menu](https://github.com/jonniek/mpv-menu) - Configurable on screen menu to run custom commands.
-- [osm](https://github.com/stax76/mpv-scripts) - Configurable on screen menu to run custom commands.
-- [mpvc-tui](https://github.com/gmt4/mpvc) - Command-line and TUI for mpv.
-- [menu](https://github.com/nezumisama/mpvmenu) - Configurable on screen context-menu.
+- [mpvc-tui](https://github.com/gmt4/mpvc) ([website](https://gmt4.github.io/mpvc)) - Command-line and TUI for mpv.
 - [menu-plugin](https://github.com/tsl0922/mpv-menu-plugin) - Win32 context menu, file dialog, clipboard support for mpv on Windows.
 - [dyn_menu](https://github.com/tsl0922/mpv-menu-plugin/blob/main/src/lua/dyn_menu.lua) - Context Menu with support for defining the context menu in input.conf.
 - [playlist-kdialog](https://gist.github.com/ftk/5e26656a2ec9a6cb0fef46918f741d0a) - Use KDE's KDialog or GTK's zenity to show current playlist or select playlist entry.
 - [mpvselectmenu](https://gitlab.com/carmanaught/mpvselectmenu) - Context-menu inspired by `select.lua` utilising mpv's `input` and `console` script functionality. Uses other scripts (see Requirements).
+- [search-page](https://github.com/CogentRedTester/mpv-search-page) - Stale, searchable and configurable menu to quickly find key bindings, commands, options and properties.
+- [menu](https://github.com/jonniek/mpv-menu) - Stale, configurable on screen menu to run custom commands.
+- [osm](https://github.com/stax76/mpv-scripts/blob/main/osm.lua) - Stale, configurable on screen menu to run custom commands.
+- [menu](https://github.com/nezumisama/mpvmenu) - Unmaintained, configurable on screen context-menu.
+- [command_palette](https://github.com/stax76/mpv-scripts/blob/main/command_palette.lua) - Obsolete, largely superseded by built-in [select.lua](https://github.com/mpv-player/mpv/blob/master/player/lua/select.lua). Searchable menu for bindings, playlist, chapters, profiles, all tracks, audio tracks, video tracks, subtitle tracks, secondary subtitle tracks, subtitle lines, commands, properties, options, audio devices, Blu-ray titles, stream quality, aspect ratio, recent files.
+- [search-menu](https://github.com/stax76/mpv-scripts/tree/main/search_menu) - Obsolete, largely superseded by built-in [select.lua](https://github.com/mpv-player/mpv/blob/master/player/lua/select.lua). Searchable and configurable menu to quickly find key bindings, commands, properties, audio/subtitle tracks and playlist entries.
+- [contextmenu](https://gitlab.com/carmanaught/mpvcontextmenu) - Obsolete, comprehensive context-menu forked from Tcl/Tk context menu (succeeded by [mpvselectmenu](https://gitlab.com/carmanaught/mpvselectmenu)).
+- [Tcl/Tk context-menu](https://gist.github.com/avih/bee746200b5712220b8bd2f230e535de) - Obsolete, configurable context-menu based on Tcl/Tk (proof-of-concept; succeeded by [contextmenu](https://gitlab.com/carmanaught/mpvcontextmenu)).
 
 ## Playback
 
