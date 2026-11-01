@@ -826,6 +826,7 @@ into popular sections, like Subtitles etc.
 - [mpv-remote-app](https://github.com/mcastorina/mpv-remote-app) - For Android, based on Java/Python.
 - [mpv-remote-app](https://github.com/husudosu/mpv-remote-app) - For Android, based on Vue.js/Ionic/Node.js.
 - [MPVMediaControl](https://github.com/datasone/MPVMediaControl) - Windows 10 System Media Transport Controls (SMTC).
+- [mpv-remote](https://github.com/BlueishTint/mpv-remote) - Web-based phone remote control with QR-code pairing and lock-screen controls, based on Rust/Lua/Web.
 - Classic remote control used by stax76: 'One For All Contour URC1210' using Philips code 0556 together with 'FLIRC USB (gen2)'.
 
 # Building
