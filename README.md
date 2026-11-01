@@ -297,6 +297,7 @@ into popular sections, like Subtitles etc.
 - [modern-x-compact](https://github.com/1-minute-to-midnight/mpv-modern-x-compact) - Compact version of modern-x.
 - [ModernZ](https://github.com/Samillion/ModernZ) - A fork of ModernX designed to enhance functionality by adding more features, all while preserving the core standards of mpv's OSC.
 - [uosc_history_menu](https://github.com/Koopex/uosc_history_menu) - A history and bookmark management menu integrated with uosc.
+- [hikari](https://github.com/SCEPTICG/hikari-mpv) ([website](https://scepticg.github.io/hikari-mpv/)) - A theme for uosc with 14 colour palettes, automatic anime opening/ending skip (AniSkip), continue watching, subtitle styles, speed and Anime4K menus.
 
 
 - [tethys](https://github.com/Zren/mpv-osc-tethys) - OSC replacement with seekbar thumbnail preview.
