@@ -789,6 +789,7 @@ into popular sections, like Subtitles etc.
 - [AniSD ArtCNN](https://github.com/Sirosky/Upscale-Hub/releases/tag/AniSD-ArtCNN) - AniSD ArtCNN shader for standard definition anime content.
 - [Ani4K v2 ArtCNN](https://github.com/Sirosky/Upscale-Hub/releases/tag/Ani4k-v2-ArtCNN) - Ani4K shader v2 targets modern anime, from high quality Bluray to crappy WEB releases, for upscaling to either 2K or 4K.
 - [Snapdragon Game Super Resolution (GSR) v1](https://gist.github.com/agyild/7715b6b1f38427839d58f80884902cab) - Snapdragon Game Super Resolution (GSR) v1 is a single-pass spatial upscaling technique originally developed by Qualcomm for mobile devices. It integrates upscaling and edge sharpening into one GPU shader pass, leveraging a 12-tap Lanczos-like scaling filter and an adaptive sharpening filter.
+- [CRT-mpv](https://github.com/SeiferLK/CRT-mpv) - Retro CRT TV simulation in mpv with full-resolution GLSL shader, multiple TV sets, and a clickable on-screen remote.
 
 # VapourSynth Scripts
 
