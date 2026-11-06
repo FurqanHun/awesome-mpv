@@ -696,6 +696,7 @@ into popular sections, like Subtitles etc.
 - [socket](https://github.com/Farzat07/mpv_socket) - Creates one IPC socket per mpv instance. Configurable. Socket name can be modified while playing.
 - [trakt-scrobble](https://github.com/dyphire/trakt-scrobble) - Connects trakt.tv with mpv and automatically scrobbles movies/shows.
 - [anilist-updater](https://github.com/AzuredBlue/mpv-anilist-updater) - Automatically updates your AniList when reaching 80% completion based on the file name.
+- [mpv-anilist-updater](https://github.com/riodinCRZ/mpv-anilist-updater) - Automatically updates your watch progress with AniList. Get anime info on the OSD.
 - [equalizer](https://github.com/he2a/mpv-scripts) - Script for togglable parametric equalizer with EQ configuration similar to EqualizerAPO format present in a csv format. Script can be whitelisted based on whether the content is audio, video or a movie. Settings are located in equalizer.conf in ./script-opts folder and equalizer configuration in ./script-opts/equalizer folder.
 - [lines-meme-generator](https://github.com/WatanabeChika/mpv-lines-meme-generator) - Allow users to take screenshots in MPV, crop them to keep only the bottom portion, and stitch them together into a long vertical image, just like a meme of lines.
 - [notification-osd](https://github.com/layercak3/mpv-notification-osd) - XDG desktop notification OSD plugin for track changes or media key playback control while the window is unfocused. Supports cover art and video thumbnail of the current time position.
